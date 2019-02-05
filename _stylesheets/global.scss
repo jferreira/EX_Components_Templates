@@ -1,0 +1,21 @@
+// NORMALISATION - RESET -------------------
+  @import "__css_config/normalize";
+
+// DESIGN VARIBLES -------------------------
+  @import "__css_config/fonts";
+  @import "__css_config/colors";
+  @import "__css_config/spacing";
+
+// External libraries
+  // @import "config/bootstrap_variables";
+  // @import "bootstrap-sprockets";
+  // @import "bootstrap";
+
+// ICONS
+  // @import "font-awesome-sprockets";
+  // @import "font-awesome";
+
+// CSS PARTIALS ----------------------------
+  @import "_css_partials/_components/index";
+  @import "_css_partials/_layouts/index";
+  @import "_css_partials/_pages/index";
