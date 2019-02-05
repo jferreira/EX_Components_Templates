@@ -1,5 +1,6 @@
 // RUN LINE:
 // sass --watch stylesheets/global.scss:stylesheets/css_sass_generated/global.css
+$asset-base-path: '../assets' !default;
 
 // RESET - NORMALISATION ----------------------------
   @import "css_config/css_reset/normalize";
@@ -7,6 +8,7 @@
 // CONFIG -- DESIGN VARIBLES -------------------------
   @import "css_config/colors";
   @import "css_config/spacing";
+  @import "css_config/icons";
   @import "css_config/fonts";
 
 // CSS PARTIALS --------------------------------------

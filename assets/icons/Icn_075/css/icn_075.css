@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icn_075';
+  src: url('../font/icn_075.eot?50897995');
+  src: url('../font/icn_075.eot?50897995#iefix') format('embedded-opentype'),
+       url('../font/icn_075.woff2?50897995') format('woff2'),
+       url('../font/icn_075.woff?50897995') format('woff'),
+       url('../font/icn_075.ttf?50897995') format('truetype'),
+       url('../font/icn_075.svg?50897995#icn_075') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'icn_075';
+    src: url('../font/icn_075.svg?50897995#icn_075') format('svg');
+  }
+}
+*/
+ 
+ [class^="ICN_0.75_"]:before, [class*=" ICN_0.75_"]:before {
+  font-family: "icn_075";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.ICN_0.75_Arrow-Down-1:before { content: '\e800'; } /* '' */
+.ICN_0.75_Arrow-Down-2:before { content: '\e801'; } /* '' */
+.ICN_0.75_Arrow-Left-1:before { content: '\e802'; } /* '' */
+.ICN_0.75_Arrow-Left-2:before { content: '\e803'; } /* '' */
+.ICN_0.75_Arrow-Right-1:before { content: '\e804'; } /* '' */
+.ICN_0.75_Arrow-Right-2:before { content: '\e805'; } /* '' */
+.ICN_0.75_Arrow-Up-1:before { content: '\e806'; } /* '' */
+.ICN_0.75_Arrow-Up-2:before { content: '\e807'; } /* '' */
+.ICN_0.75_Block:before { content: '\e808'; } /* '' */
+.ICN_0.75_Close:before { content: '\e809'; } /* '' */
+.ICN_0.75_Comment:before { content: '\e80a'; } /* '' */
+.ICN_0.75_Download:before { content: '\e80b'; } /* '' */
+.ICN_0.75_Fast-Forward:before { content: '\e80c'; } /* '' */
+.ICN_0.75_Gallery:before { content: '\e80d'; } /* '' */
+.ICN_0.75_Heart:before { content: '\e80e'; } /* '' */
+.ICN_0.75_Hide:before { content: '\e80f'; } /* '' */
+.ICN_0.75_Like:before { content: '\e810'; } /* '' */
+.ICN_0.75_Loop-1:before { content: '\e811'; } /* '' */
+.ICN_0.75_Shuffle-1:before { content: '\e812'; } /* '' */
+.ICN_0.75_Loop:before { content: '\e813'; } /* '' */
+.ICN_0.75_Menu-3-Dot-L:before { content: '\e814'; } /* '' */
+.ICN_0.75_Menu-3-Dot-H:before { content: '\e815'; } /* '' */
+.ICN_0.75_Menu-3-Line-H:before { content: '\e816'; } /* '' */
+.ICN_0.75_Menu-9-Dot:before { content: '\e817'; } /* '' */
+.ICN_0.75_Minus:before { content: '\e818'; } /* '' */
+.ICN_0.75_Mute:before { content: '\e819'; } /* '' */
+.ICN_0.75_Next:before { content: '\e81a'; } /* '' */
+.ICN_0.75_Notification:before { content: '\e81b'; } /* '' */
+.ICN_0.75_Pause:before { content: '\e81c'; } /* '' */
+.ICN_0.75_Play:before { content: '\e81d'; } /* '' */
+.ICN_0.75_Add:before { content: '\e81e'; } /* '' */
+.ICN_0.75_Repeat:before { content: '\e81f'; } /* '' */
+.ICN_0.75_Search:before { content: '\e820'; } /* '' */
+.ICN_0.75_Settings:before { content: '\e821'; } /* '' */
+.ICN_0.75_Show:before { content: '\e822'; } /* '' */
+.ICN_0.75_Shuffle-2:before { content: '\e823'; } /* '' */
+.ICN_0.75_Signal:before { content: '\e824'; } /* '' */
+.ICN_0.75_Skip:before { content: '\e825'; } /* '' */
+.ICN_0.75_Tick:before { content: '\e826'; } /* '' */
+.ICN_0.75_Vibrate:before { content: '\e827'; } /* '' */
+.ICN_0.75_Volume:before { content: '\e828'; } /* '' */
