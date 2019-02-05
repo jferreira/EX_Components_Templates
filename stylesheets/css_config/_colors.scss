@@ -2,11 +2,16 @@
 /*--------- _COLORS.scss -------------*/
 
 :root {
+      --color-primary: red;
+      --color-secondary: blue;
+      --color-accent: green;
+
       --color-background: rgba(0,0,0,1);
-      --color-primary: #ffc600;
-      --color-secondary: #E67E22;
-      --color-accent: #ffc600;
+
       --color-black: rgba(0,0,0,1);
+      --color-grey-dark: rgba(200,200,200,1);
+      --color-grey-light: rgba(75,75,75,1);
+      --color-grey-mid: rgba(125,125,125,1);
     }
 
 // // For example:
@@ -41,3 +46,5 @@
 // // style="background-image: linear-gradient(-225deg, rgba(18,240,181,0.6) 0%, rgba(15,153,200,0.8) 50%), url(<%= document.image_url %>)
 // $turq-grad-1: rgba(18,240,181,0.6);
 // $turq-grad-2: rgba(15,153,200,0.8);
+
+/*------------------------------------*/

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,wCAAwC;AACxC,uCAAuC;AAI/B,qGAA6F;AAarG,qCAAqC;AAErC,KAAM;EACA,cAAc,CAAC,mCAAmC;EAClD,gBAAgB,CAAC,0CAA0C;;AAGjE,gCAAgC;AAGhC,CAAE;EACA,KAAK,EAAE,cAAc",
-"sources": ["css_config/_fonts.scss"],
-"names": [],
-"file": "global.css"
-}

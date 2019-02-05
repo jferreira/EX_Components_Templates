@@ -1,9 +1,69 @@
-/*------------------------------------*/
+/*-------------------------------------*/
 /*--------- _SPACING.scss -------------*/
 
 :root {
-      --spacing-small: 8px;
-      --spacing-medium: 16px;
-      --spacing-large: 32px;
+      --spacing-small-extra: 4pt;
+      --spacing-small: 8pt;
+
+      --spacing-medium: 16pt;
+
+      --spacing-large: 32pt;
+      --spacing-large-extra: 64pt;
+
       --blur: 8px;
     }
+
+/*-------------- TESTS -----------------------*/
+
+
+.test-1{
+  background: var(--color-primary);
+  padding:  var(--spacing-small);
+  // margin: var(--spacing-small);
+}
+
+.test-2{
+  background: var(--color-secondary);
+  padding:  var(--spacing-medium);
+  // margin: var(--spacing-medium);
+}
+
+.test-3{
+  background: var(--color-accent);
+  padding:  var(--spacing-large);
+  // margin: var(--spacing-large);
+}
+
+.test-4{
+  background: var(--color-grey-light);
+  padding:  var(--spacing-large-extra);
+  // margin: var(--spacing-small);
+}
+
+
+
+#test-1{
+  background: var(--color-primary);
+  padding:  var(--spacing-small);
+  // margin: var(--spacing-small);
+}
+
+#test-2{
+  background: var(--color-secondary);
+  padding:  var(--spacing-medium);
+  // margin: var(--spacing-medium);
+}
+
+#test-3{
+  background: var(--color-accent);
+  padding:  var(--spacing-large);
+  // margin: var(--spacing-large);
+}
+
+#test-4{
+  background: var(--color-grey-light);
+  padding:  var(--spacing-large-extra);
+  // margin: var(--spacing-small);
+}
+
+/*-------------------------------------*/
