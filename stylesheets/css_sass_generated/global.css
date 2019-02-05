@@ -310,9 +310,12 @@ template {
   --color-accent: green;
   --color-background: rgba(0,0,0,1);
   --color-black: rgba(0,0,0,1);
-  --color-grey-dark: rgba(200,200,200,1);
-  --color-grey-light: rgba(75,75,75,1);
-  --color-grey-mid: rgba(125,125,125,1); }
+  --color-grey-dark: rgba(64,64,64,1);
+  --color-grey-mid: rgba(128,128,128,1);
+  --color-grey-light: rgba(192,192,192,1);
+  --color-test-yellow: rgba(256, 256, 0, 0.2);
+  --color-test-cyan: rgba(0, 256, 256, 0.2);
+  --color-test-pink: rgba(256, 0, 256, 0.2); }
 
 /*------------------------------------*/
 /*-------------------------------------*/
@@ -379,56 +382,55 @@ h1 {
   color: var(--color-grey-dark);
   font-size: var(--font-size-h1);
   line-height: 1;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: var(--color-test-yellow); }
 
 h2 {
   margin: var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-primary);
-  color: var(--color-grey-mid);
+  color: var(--color-grey-dark);
   font-size: var(--font-size-h2);
   line-height: 1.2;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: var(--color-test-yellow); }
 
 h3 {
   margin: var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-primary);
-  color: var(--color-grey-light);
+  color: var(--color-grey-dark);
   font-size: var(--font-size-h3);
   line-height: 1.4;
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: var(--color-test-yellow); }
 
 h4 {
   margin: var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-primary);
-  color: var(--color-grey-light);
+  color: var(--color-grey-dark);
   font-size: var(--font-size-h4);
   line-height: 1.6;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: var(--color-test-yellow); }
 
+/*----------- SECONDARY -------------------*/
 p {
   margin: var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-secondary);
-  color: var(--color-black);
+  color: var(--color-grey-mid);
   font-size: var(--font-size-p1);
   line-height: 1.8;
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: var(--color-test-cyan); }
 
 .p1 {
   margin: var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-secondary);
-  color: var(--color-black);
+  color: var(--color-grey-mid);
   font-size: var(--font-size-p1);
   line-height: 1.8;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: var(--color-test-cyan); }
 
 .p2 {
   margin: var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-secondary);
-  color: var(--color-black);
+  color: var(--color-grey-mid);
   font-size: var(--font-size-p2);
   line-height: 2;
-  background-color: rgba(0, 0, 0, 0.2); }
-
-/*------------------------------------*/
+  background-color: var(--color-test-cyan); }
 
 /*# sourceMappingURL=global.css.map */

@@ -18,119 +18,88 @@
 /*---------------------------------*/
 
 :root {
-      --font-family-primary: "Zilla Slab", "Helvetica", "serif";
+  --font-family-primary: "Zilla Slab", "Helvetica", "serif";
+  --font-size-h1: 64pt;
+  --font-size-h2: 32pt;
+  --font-size-h3: 16pt;
+  --font-size-h4: 8pt;
 
-      --font-size-h1: 64pt;
-      --font-size-h2: 32pt;
-      --font-size-h3: 16pt;
-      --font-size-h4: 8pt;
-
-      --font-family-secondary: "Merriweather", "Helvetica", "sans-serif";
-
-      --font-size-p1: 8pt;
-      --font-size-p2: 6pt;
-    }
+  --font-family-secondary: "Merriweather", "Helvetica", "sans-serif";
+  --font-size-p1: 8pt;
+  --font-size-p2: 6pt;
+}
 
 /*---------- TESTS ---------------*/
 
 
 h1 {
+  // SIDES + TOP & BOTTOM
   margin:var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-primary);
   color: var(--color-grey-dark);
   font-size: var(--font-size-h1);
   line-height: 1;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--color-test-yellow);
 }
 
 h2 {
+  // SIDES + TOP & BOTTOM
   margin:var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-primary);
-  color: var(--color-grey-mid);
+  color: var(--color-grey-dark);
   font-size: var(--font-size-h2);
   line-height: 1.2;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--color-test-yellow);
 }
 
 h3 {
+  // SIDES + TOP & BOTTOM
   margin: var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-primary);
-  color: var(--color-grey-light);
+  color: var(--color-grey-dark);
   font-size: var(--font-size-h3);
   line-height: 1.4;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--color-test-yellow);
 }
 
 h4 {
+  // SIDES + TOP & BOTTOM
   margin:var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-primary);
-  color: var(--color-grey-light);
+  color: var(--color-grey-dark);
   font-size: var(--font-size-h4);
   line-height: 1.6;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--color-test-yellow);
 }
 
+/*----------- SECONDARY -------------------*/
+
 p {
+  // SIDES + TOP & BOTTOM
   margin:var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-secondary);
-  color: var(--color-black);
+  color: var(--color-grey-mid);
   font-size: var(--font-size-p1);
   line-height: 1.8;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--color-test-cyan);
 }
 
 .p1 {
+  // SIDES + TOP & BOTTOM
   margin:var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-secondary);
-  color: var(--color-black);
+  color: var(--color-grey-mid);
   font-size: var(--font-size-p1);
   line-height: 1.8;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--color-test-cyan);
 }
 
 .p2 {
+  // SIDES + TOP & BOTTOM
   margin:var(--spacing-small) var(--spacing-small);
   font-family: var(--font-family-secondary);
-  color: var(--color-black);
+  color: var(--color-grey-mid);
   font-size: var(--font-size-p2);
   line-height: 2;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--color-test-cyan);
 }
-
-
-
-/*------------------------------------*/
-
-// .txt-title h1 {
-//     margin:0 ;
-//     font-size: 40px;
-// }
-//
-// .txt-heading h2 {
-//     margin:0 ;
-//     font-size: 30px;
-// }
-//
-// .txt-heading-sub h3 {
-//     margin:0 ;
-//     font-size: 16px;
-// }
-//
-// p {
-//     font-size: 16px;
-//     line-height: 1.8;
-//     font-family: 'Merriweather', sans-serif;
-// }
-//
-// .txt p {
-//     color: rgba(0,0,0,0.8);
-//     font-size: 16px;
-//     line-height: 1.8;
-//     font-family: 'Merriweather', sans-serif;
-// }
-//
-// .txt-btn p {
-//     margin:0 ;
-//     font-size: 10px;
-//     font-family: 'Merriweather', sans-serif;
-// }

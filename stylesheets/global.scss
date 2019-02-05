@@ -2,19 +2,19 @@
 // sass --watch stylesheets/global.scss:stylesheets/css_sass_generated/global.css
 
 // RESET - NORMALISATION ----------------------------
-  @import "css_reset/normalize";
+  @import "css_config/css_reset/normalize";
 
 // CONFIG -- DESIGN VARIBLES -------------------------
   @import "css_config/colors";
   @import "css_config/spacing";
   @import "css_config/fonts";
 
-// CSS PARTIALS ----------------------------
+// CSS PARTIALS --------------------------------------
   // @import "css_partials/_components/index";
   // @import "css_partials/_layouts/index";
   // @import "css_partials/_pages/index";
 
-// EXTERNAL - External libraries
+// EXTERNAL - External libraries ---------------------
   // @import "config/bootstrap_variables";
   // @import "bootstrap-sprockets";
   // @import "bootstrap";
